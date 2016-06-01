@@ -58,7 +58,7 @@ public class FetchWeb {
 				tmp = content.substring(cutpoint1+46, content.length()).trim();
 				cutpoint2 = tmp.indexOf(cut2);
 				ans = tmp.substring(0, cutpoint2).trim();
-				String cut3 = ">",cut4 = "¡j",cut5 = "¡^",cut6 = ")",cut7 = ";",add1;
+				String cut3 = ">",cut4 = "¡j",cut5 = "¡^",cut6 = ")",cut7 = ";",add1,add2;
 				int loc = 0,cutpoint4;
 				
 				while(loc < ans.length())
@@ -92,7 +92,9 @@ public class FetchWeb {
 						add2 = ans.substring(cutpoint4 + 1, ans.length()).trim();
 						ans = add1 + add2;
 						*/
+						System.out.println(add1);
 						ans = ans.replace(add1, "");
+						//System.out.println(ans);
 					}
 					else
 					{

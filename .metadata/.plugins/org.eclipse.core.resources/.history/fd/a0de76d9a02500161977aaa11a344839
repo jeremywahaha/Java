@@ -99,7 +99,7 @@ public class FetchWeb {
 						loc += 1;
 					}
 				}
-				//System.out.println(ans);
+				System.out.println(ans);
 				
 				FileWriter fr1 = new FileWriter("output.txt",true);
 		        BufferedWriter bw = new BufferedWriter(fr1);
